@@ -1,0 +1,67 @@
+﻿Build started 2014/3/29 15:16:41.
+     1>Project "F:\OpenSource\libevent\libevent\libevent.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libevent.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../compat /I../include /I"../WIN32-Code" /I"../../openssl-0.9.8r/include" /I"../../zlib-1.2.8" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt buffer.c bufferevent.c bufferevent_async.c bufferevent_filter.c bufferevent_openssl.c bufferevent_pair.c bufferevent_ratelim.c bufferevent_sock.c buffer_iocp.c evdns.c event.c event_iocp.c event_tagging.c evmap.c evrpc.c evthread.c evthread_win32.c evutil.c evutil_rand.c http.c listener.c log.c signal.c strlcpy.c win32select.c
+         buffer.c
+         bufferevent.c
+         bufferevent_async.c
+         bufferevent_filter.c
+         bufferevent_openssl.c
+         bufferevent_pair.c
+         bufferevent_ratelim.c
+         bufferevent_sock.c
+         buffer_iocp.c
+         evdns.c
+         event.c
+         event_iocp.c
+         event_tagging.c
+         evmap.c
+         evrpc.c
+         evthread.c
+         evthread_win32.c
+         evutil.c
+         evutil_rand.c
+         http.c
+         Compiling...
+         listener.c
+         log.c
+         signal.c
+         strlcpy.c
+         win32select.c
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\OpenSource\libevent\/build/Release/libevent.lib" /NOLOGO /LTCG Release\buffer.obj
+         Release\bufferevent.obj
+         Release\bufferevent_async.obj
+         Release\bufferevent_filter.obj
+         Release\bufferevent_openssl.obj
+         Release\bufferevent_pair.obj
+         Release\bufferevent_ratelim.obj
+         Release\bufferevent_sock.obj
+         Release\buffer_iocp.obj
+         Release\evdns.obj
+         Release\event.obj
+         Release\event_iocp.obj
+         Release\event_tagging.obj
+         Release\evmap.obj
+         Release\evrpc.obj
+         Release\evthread.obj
+         Release\evthread_win32.obj
+         Release\evutil.obj
+         Release\evutil_rand.obj
+         Release\http.obj
+         Release\listener.obj
+         Release\log.obj
+         Release\signal.obj
+         Release\strlcpy.obj
+         Release\win32select.obj
+         libevent.vcxproj -> F:\OpenSource\libevent\/build/Release/libevent.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libevent.unsuccessfulbuild".
+         Touching "Release\libevent.lastbuildstate".
+     1>Done Building Project "F:\OpenSource\libevent\libevent\libevent.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.40

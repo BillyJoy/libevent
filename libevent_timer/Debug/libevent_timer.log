@@ -1,0 +1,9 @@
+﻿Build started 2014/5/17 11:49:35.
+     1>Project "F:\OpenSource\libevent\libevent_timer\libevent_timer.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\libevent_timer.lastbuildstate".
+     1>Done Building Project "F:\OpenSource\libevent\libevent_timer\libevent_timer.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01

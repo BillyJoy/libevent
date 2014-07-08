@@ -1,0 +1,24 @@
+﻿Build started 2014/3/29 15:16:48.
+     1>Project "F:\OpenSource\libevent\libevent_le_proxy\libevent_le_proxy.vcxproj" on node 4 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libevent_le_proxy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /I"../WIN32-Code" /I../libevent /I"../../openssl-0.9.8r/include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _EVENT_HAVE_OPENSSL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt "le-proxy.c"
+         le-proxy.c
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../build/Release/libevent_le_proxy.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../build/Debug/ /LIBPATH:"../../openssl-0.9.8r/out32" libevent.lib ws2_32.lib libeay32.lib ssleay32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libevent_le_proxy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\OpenSource\libevent\build\Release\libevent_le_proxy.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../build/Release/libevent_le_proxy.lib" /MACHINE:X86 "Release\le-proxy.obj"
+     1>libevent.lib(bufferevent_openssl.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         libevent_le_proxy.vcxproj -> F:\OpenSource\libevent\libevent_le_proxy\../build/Release/libevent_le_proxy.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../build/Release/libevent_le_proxy.exe;#1" /manifest Release\libevent_le_proxy.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\libevent_le_proxy.unsuccessfulbuild".
+         Touching "Release\libevent_le_proxy.lastbuildstate".
+     1>Done Building Project "F:\OpenSource\libevent\libevent_le_proxy\libevent_le_proxy.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36
